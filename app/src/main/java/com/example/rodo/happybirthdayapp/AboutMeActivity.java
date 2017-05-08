@@ -14,6 +14,6 @@ public class AboutMeActivity extends AppCompatActivity {
 
         WebView aboutMe = (WebView) findViewById(R.id.wbAboutMe);
         aboutMe.setWebViewClient(new WebViewClient());
-        aboutMe.loadUrl("http://www.ciudadguzman.gob.mx/servitel");
+        aboutMe.loadUrl("http://www.ciudadguzman.gob.mx");
     }
 }
